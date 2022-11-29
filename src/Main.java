@@ -1,5 +1,7 @@
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
+    public static void main(String[] args) { var dog = 8;
+        var cat = 3.6;
+        var paper = 763789;
+        System.out.println(paper);
     }
 }
