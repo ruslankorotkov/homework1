@@ -27,6 +27,13 @@ public class Main {
         int egg = 70;
         int mousse = banana * 5 + milk * 2 + iceCream * 2 + egg * 4;
         System.out.println( mousse + " грамм " );
+        int mass = 7000;
+        int weightLoss1 = 250;
+        int weightLoss2 = 500;
+        int dayLoss1 = mass / weightLoss1;
+        int dayLoss2 = mass / weightLoss2;
+        System.out.println( " спортсмен скинет лишний вес за "+ dayLoss1 +" дней при похудении на "+ weightLoss1 +" грамм в сутки " );
+        System.out.println( " спортсмен скинет лишний вес за "+ dayLoss2 +" дней при похудении на "+ weightLoss2 +" грамм в сутки " );
 
 
     }
