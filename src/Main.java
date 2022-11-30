@@ -34,6 +34,24 @@ public class Main {
         int dayLoss2 = mass / weightLoss2;
         System.out.println( " спортсмен скинет лишний вес за "+ dayLoss1 +" дней при похудении на "+ weightLoss1 +" грамм в сутки " );
         System.out.println( " спортсмен скинет лишний вес за "+ dayLoss2 +" дней при похудении на "+ weightLoss2 +" грамм в сутки " );
+        int masha = 67760;
+        int denis = 83690;
+        int krist = 76230;
+        int mashaSalary = ( masha / 100 * 10 ) + masha;
+        int denisSalary = ( denis / 100 * 10 ) + denis;
+        int kristSalary = ( krist / 100 * 10 ) + krist;
+        int incomeMasha = mashaSalary * 12;
+        int incomeDenis = denisSalary * 12;
+        int incomeKrist = kristSalary * 12;
+        int oldMasha = masha * 12;
+        int oldDenis = denis * 12;
+        int oldKrist = krist * 12;
+        int ma = incomeMasha - oldMasha;
+        int de = incomeDenis - oldDenis;
+        int kr = incomeKrist - oldKrist;
+        System.out.println( " маша теперь получает " + mashaSalary + " рублей. Годовой доход вырос на " + ma + " рублей ");
+        System.out.println( " маша теперь получает " + denisSalary + " рублей. Годовой доход вырос на " + de + " рублей ");
+        System.out.println( " маша теперь получает " + kristSalary + " рублей. Годовой доход вырос на " + kr + " рублей ");
 
 
     }
