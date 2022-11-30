@@ -50,8 +50,8 @@ public class Main {
         int de = incomeDenis - oldDenis;
         int kr = incomeKrist - oldKrist;
         System.out.println( " маша теперь получает " + mashaSalary + " рублей. Годовой доход вырос на " + ma + " рублей ");
-        System.out.println( " маша теперь получает " + denisSalary + " рублей. Годовой доход вырос на " + de + " рублей ");
-        System.out.println( " маша теперь получает " + kristSalary + " рублей. Годовой доход вырос на " + kr + " рублей ");
+        System.out.println( " денис теперь получает " + denisSalary + " рублей. Годовой доход вырос на " + de + " рублей ");
+        System.out.println( " кристина теперь получает " + kristSalary + " рублей. Годовой доход вырос на " + kr + " рублей ");
 
 
 
