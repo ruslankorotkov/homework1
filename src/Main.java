@@ -15,5 +15,25 @@ public class Main {
         System.out.println( " значение переменной bitBox4 c типом  long равно " + bitBox4);
         System.out.println( " значение переменной bitBox5 c типом  float равно " + bitBox5);
         System.out.println( " значение переменной bitBox6 c типом  double равно " + bitBox6);
+        float table = (float) 27.12;
+        System.out.println( table );
+        double tableLand = 987678965549D;
+        System.out.println( tableLand );
+        byte planet = 2;
+        System.out.println( planet );
+        int map = 786;
+        System.out.println( map );
+        int age = 22;
+        boolean isAdult = age <=18;
+        System.out.println( isAdult );
+        short kitchen = 569;
+        System.out.println( kitchen );
+        short flag = -159;
+        System.out.println( flag );
+        long billboard = 27897;
+        System.out.println( billboard );
+        int chart = 67;
+        System.out.println( chart );
+
     }
 }
