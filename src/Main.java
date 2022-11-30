@@ -54,5 +54,6 @@ public class Main {
         System.out.println( " маша теперь получает " + kristSalary + " рублей. Годовой доход вырос на " + kr + " рублей ");
 
 
+
     }
 }
