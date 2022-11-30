@@ -21,6 +21,12 @@ public class Main {
         int whiteBottles = whitesBox * box;
         int bottlesBrown = brownBox * box;
         System.out.println(" в школе, где " + box + " классов, нужно " + whiteBottles + " банок белой краски и " + bottlesBrown + " банок коричневой краски");
+        int banana = 80;
+        int milk = 105;
+        int iceCream = 100;
+        int egg = 70;
+        int mousse = banana * 5 + milk * 2 + iceCream * 2 + egg * 4;
+        System.out.println( mousse + " грамм " );
 
 
     }
